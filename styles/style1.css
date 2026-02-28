@@ -17,7 +17,7 @@
 
 body {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Lora";
   background: var(--bg);
   color: var(--text-main);
 }
@@ -494,6 +494,7 @@ nav a:hover::after {
 
 .footer-grid {
   max-width: 1100px;
+  background: #b3781f;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -503,21 +504,23 @@ nav a:hover::after {
 
 footer h4 {
   margin-bottom: 12px;
-  color: var(--gold);
+  color: #000000;
   font-weight: 600;
 }
 
 footer ul {
   list-style: none;
   padding: 0;
+  color: #000000;
 }
 
 footer ul li {
   margin-bottom: 6px;
+  color: #000000;
 }
 
 footer a {
-  color: #685436;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -529,6 +532,7 @@ footer a:hover {
   margin-top: 40px;
   text-align: center;
   font-size: 0.85rem;
+  color: #000000;
   opacity: 0.85;
 }
 
